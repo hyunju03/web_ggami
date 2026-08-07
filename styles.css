@@ -324,6 +324,17 @@ h1 {
   border: 1px solid #e5dfd3;
 }
 
+.quick-card-icon {
+  display: block;
+  width: 78px;
+  height: 58px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  object-fit: cover;
+  object-position: center;
+  background: #1d252c;
+}
+
 .quick-grid article span {
   color: var(--blue);
   font-size: 0.9rem;
