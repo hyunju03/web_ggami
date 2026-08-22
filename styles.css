@@ -191,41 +191,48 @@ h1 {
   font-weight: 800;
 }
 
-.price-summary {
+.price-row {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 14px;
   margin-top: 24px;
+}
+
+.price-summary {
   color: var(--primary);
   font-size: 1.7rem;
   font-weight: 800;
 }
 
 .deposit-summary {
-  margin-top: 6px;
   color: #4b5563;
   font-size: 1rem;
   font-weight: 500;
 }
 
 .inquiry-banner {
-  display: flex;
+  display: grid;
   align-items: center;
   justify-content: center;
-  gap: 14px;
+  gap: 6px;
   margin-top: 24px;
-  padding: 18px 20px;
+  padding: 16px 20px;
   border-radius: 8px;
-  background: #f9737c;
+  background: #0f5f55;
   color: #ffffff;
+  text-align: center;
   text-decoration: none;
-  box-shadow: 0 12px 24px rgba(249, 115, 124, 0.28);
+  box-shadow: 0 12px 24px rgba(15, 95, 85, 0.22);
 }
 
 .inquiry-banner span {
-  font-size: clamp(1.35rem, 2.8vw, 1.9rem);
+  font-size: clamp(1.05rem, 2vw, 1.3rem);
   font-weight: 800;
 }
 
 .inquiry-banner strong {
-  font-size: clamp(1.5rem, 3vw, 2.1rem);
+  font-size: clamp(1.28rem, 2.4vw, 1.7rem);
   line-height: 1;
   font-weight: 800;
   letter-spacing: 0.02em;
@@ -595,13 +602,6 @@ p[contenteditable="true"]:focus {
   .contact-line,
   .location-address {
     align-items: flex-start;
-  }
-
-  .inquiry-banner {
-    display: grid;
-    gap: 6px;
-    padding: 16px;
-    text-align: center;
   }
 
   .slider-button {
